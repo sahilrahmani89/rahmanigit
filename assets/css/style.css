@@ -1727,7 +1727,22 @@ color: #167ac6;
   }
   .seperator{
     display: none;
+  } 
+}
+@media (max-width: 567px){
+  .qd-banner .owl-carousel .owl-nav button{
+    display: none;
   }
+  .qd-banner .pp-btn-block a{
+    display: block;
+  }
+   .qd-banner .pp-btn-block .btn-lg{
+    margin-bottom: 20px;
+   }
+   .qd-banner .pp-btn-block a:first-child{
+    margin-right: 0px;
+   }
+   
 }
 
 
